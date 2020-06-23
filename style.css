@@ -1,0 +1,18 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.row {
+    max-width: 1140px;
+    margin: auto;
+}
+
+h1 {
+    padding: 80px 0 20px 0;
+    text-align: center;
+    color: brown;
+    border-bottom: 5px brown solid;
+}
