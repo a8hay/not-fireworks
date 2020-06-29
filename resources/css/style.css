@@ -195,6 +195,10 @@ h2::after {
 /* PROJECTS */
 /* ----------------------------------------- */ 
 
+.projects {
+    background-color: #f4f4f4;
+}
+
 .projects img {
     width: 100%;
     height: auto;
@@ -211,8 +215,7 @@ h2::after {
 
 .projects .box {
     border-radius: 1%;
-    /* background-color: #93f5d9; */
-    background-color: #ddd;
+    border: 2px solid #aaa;
     padding: 10px;
     box-shadow: 0 2px 10px #f4f4ff;
     transition: box-shadow 0.2s, background-color 0.2s;
@@ -220,8 +223,9 @@ h2::after {
 
 .projects .box:hover {
     cursor: pointer;
-    background-color: #e3f3ee;
+    background-color: #ffafa;  
     box-shadow: 0 2px 5px #999;
+    border: 2px solid #333;
 }
 
 /* ----------------------------------------- */
